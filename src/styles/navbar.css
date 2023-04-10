@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.nav {
+    background-color: #EEEDF4 !important;
+}
+
+.logo {
+    width: 187px;
+    height: 32px;
+}
+
+.transparent {
+    color: transparent !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+    .navbar-text {
+        margin: 0px !important;
+        padding: 0px !important;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-size: 17px;
+        font-weight: 400;
+        color: #000;
+    }
+
+    .nav-aboutus {
+        padding-top: 0.4rem;
+    }
+    
+}
+
+.navbar-p {
+    margin: 0.5rem 0px;
+}
+
+.navbar-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.nav-contact {
+    color: #426DF2;
+}
+
+.nav-contact:hover {
+    color: #7494f3;
+}

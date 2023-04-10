@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+.footer-container {
+    background-color: #EEEDF4;
+}
+
+.titulo-1-footer {
+    text-align: center;
+    font-family: 'Alumni Sans', 'sans serif';
+    font-style: Black;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 100%;
+    vertical-align: Top;
+}
+
+.navigation {
+    font-family: 'K2D', sans-serif;
+    font-style: Regular;
+    font-size: 15px;
+    font-weight: 400;
+    color: #595050 !important;
+}
+
+.navigation:hover {
+    color: #121111 !important;
+}
+
+.descripcion-contacto {
+    font-family: 'K2D', sans-serif;
+    font-style: Regular;
+    font-size: 12px;
+}
+
+.redes {
+    width: 16px;
+    height: 16px;
+}
+
+.redes-container {
+    margin-top: -10px;
+}
+
+.logo-footer {
+    width: 113px;
+    height: 18px;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 350px) {
+    .logo-footer {
+        width: 83px;
+        height: 15px;
+    }    
+}

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .colsm6 {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+}
+
+.titulo-card {
+    color: #af2;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    background-color: #E7E7E7;
+    height: 268px;
+    width: 160px;
+}
+
+@media screen and (min-width: 580px) and (max-width: 700px) {
+
+    .card-1,
+    .card-3 {
+        height: 298px;
+        width: 170px;
+        margin-top: 10px;
+    }
+
+    .card-2 {
+        height: 318px;
+        width: 185px;
+    }
+
+    .titulo-card-1 {
+        font-size: 28px!important;
+    }
+    
+    .descripcion-titulo-1-card {
+        font-size: 14px!important;
+    }
+    
+    .descripcion-titulo-2-card {
+        font-size: 14px!important;
+    }
+    
+    .descripcion-titulo-3-card {
+        font-size: 14px !important;
+    }
+    
+    .precio-card-1 {
+        font-size: 28px;
+    }
+    
+    .card-1-descripcion {
+        font-size: 13px!important;
+    }
+    
+    .card-2-descripcion {
+        font-size: 14.2px!important;
+    }
+    
+    .card-3-descripcion {
+        font-size: 13px!important;
+        line-height: 22px!important;
+        line-height: 96%!important;
+    }
+    
+    .cuentame {
+        font-size: 18px!important;
+    }
+    
+    .cuentame-2 {
+        font-size: 19px!important;
+    }
+}
+
+.card-2 {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 700px) and (max-width: 10000px) {
+
+    .card-1,
+    .card-3 {
+        height: 338px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .card-2 {
+        height: 368px;
+        width: 215px;
+    }
+
+    .titulo-card-1 {
+        font-size: 32px!important;
+    }
+    
+    .descripcion-titulo-1-card {
+        font-size: 17px!important;
+        line-height: 16px!important;
+    }
+    
+    .descripcion-titulo-2-card {
+        line-height: 16px!important;
+        font-size: 18px!important;
+    }
+    
+    .descripcion-titulo-3-card {
+        line-height: 15px!important;
+        font-size: 18px !important;
+    }
+    
+    .precio-card-1 {
+        font-size: 28px;
+    }
+    
+    .card-1-descripcion {
+        font-size: 16px!important;
+    }
+    
+    .card-2-descripcion {
+        font-size: 17px!important;
+    }
+    
+    .card-3-descripcion {
+        font-size: 15.5px!important;
+        line-height: 22px!important;
+        line-height: 96%!important;
+    }
+    
+    .cuentame {
+        font-size: 18px!important;
+    }
+    
+    .cuentame-2 {
+        font-size: 19px!important;
+    }
+}
+
+.card-2 {
+    margin-bottom: 1rem;
+}
+
+.titulo-card-1 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-style: black;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 23px;
+    line-height: 24px;
+    line-height: 100%;
+    vertical-align: Top;
+}
+
+.descripcion-titulo-1-card {
+    font-family: 'K2D', 'sans-serif';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.descripcion-titulo-2-card {
+    font-family: 'K2D', 'sans-serif';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.descripcion-titulo-3-card {
+    font-family: 'K2D', 'sans-serif';
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+}
+
+
+.precio-card-1 {
+    font-family: 'Anton', 'sans-serif';
+    font-style: Black;
+    font-size: 28px;
+    line-height: 36px;
+    line-height: 100%;
+    vertical-align: Top;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0px;
+
+    -webkit-text-stroke: 1px #000;
+}
+
+.precio-card-1-container {
+    background-color: #426DF2;
+}
+
+.precio-card-2-container {
+    background-color: #000;
+}
+
+.card-1-descripcion {
+    font-family: 'K2D', 'sans-serif';
+    font-style: Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.5px;
+    line-height: 92%;
+    text-align: center;
+    margin-bottom: 0.5rem !important;
+}
+
+.card-2-descripcion {
+    font-family: 'K2D', 'sans-serif';
+    font-style: Regular;
+    font-size: 11.4px;
+    font-weight: 400;
+    line-height: 12.5px;
+    line-height: 92%;
+    text-align: center;
+    margin-top: -2px;
+    margin-bottom: 0.5rem !important;
+}
+
+.card-3-descripcion {
+    font-family: 'K2D', 'sans-serif';
+    font-style: Regular;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    line-height: 154%;
+    text-align: center;
+    margin-bottom: 0.5rem !important;
+}
+
+.cuentame {
+    font-family: 'Alumni sans', 'sans-serif';
+    font-weight: 900;
+    font-size: 17px;
+    background-color: #426DF2;
+    color: #fff;
+    padding: 0px 2px;
+
+    -webkit-text-stroke: 1px #000;
+}
+
+.cuentame-2 {
+    font-family: 'Alumni sans', 'sans-serif';
+    font-weight: 900;
+    font-size: 17px;
+    background-color: #000;
+    color: #fff;
+    padding: 0px 2px;
+
+    -webkit-text-stroke: 1px #000;
+}
+
+.cards-container {
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+}
